@@ -66,7 +66,7 @@ $ radiff2 -AC -a x86 /bin/true /bin/false | grep UNMATCH
                           fcn.00003a50  120 0x3a50 | UNMATCH  (0.125000) | 0x3a60   120 fcn.00003a60
 ```
 
-And now a cool feature : radare2 supports graph-diffing, à la [DarunGrim](http://www.darungrim.org/), with the `-g` option. You can either give it a symbol name, of specify two offsets, if the function you want to diff is named differently in compared files. For example, `radiff2 -md -g main /bin/true /bin/false | xdot -` will show differences in `main()` function of Unix `true` and `false` programs. You can compare it to `radiff2 -md -g main /bin/false /bin/true | xdot -` (Notice the order of the arguments) to get the two versions.
+And now a cool feature : radare2 supports graph-diffing, à la [DarunGrim](http://www.darungrim.org/), with the `-g` option. You can either give it a symbol name, or specify two offsets, if the function you want to diff is named differently in compared files. For example, `radiff2 -md -g main /bin/true /bin/false | xdot -` will show differences in `main()` function of Unix `true` and `false` programs. You can compare it to `radiff2 -md -g main /bin/false /bin/true | xdot -` (Notice the order of the arguments) to get the two versions.
 This is the result:
 
 ![/bin/true vs /bin/false](img/true_false2.png)
