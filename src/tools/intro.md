@@ -4,7 +4,7 @@ Radare2 is not just the only tool provided by the radare2 project. The rest of c
 
 All the functionalities provided by the different APIs and plugins have also different tools to allow to use them from the commandline and integrate them with shellscripts easily.
 
-Thanks to the ortogonal design of the framework it is possible to do all the things that r2 is able from different places:
+Thanks to the orthogonal design of the framework it is possible to do all the things that r2 is able from different places:
 
 * These companion tools
 * Native library APIs
