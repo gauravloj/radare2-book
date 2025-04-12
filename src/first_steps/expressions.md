@@ -50,7 +50,7 @@ For example, using the `?vi` command we the the integer (base10) value resulting
 6
 ```
 
-To use of binary OR should quote the whole command to avoid executing the `|` pipe:
+To use binary OR, quote the whole command to avoid executing the `|` pipe:
 
 ```console
 [0x00000000]> "? 1 | 2"
